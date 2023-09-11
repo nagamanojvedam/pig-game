@@ -1,5 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: "Bebas Neue";
+  height: 100vh;
+  background-image: linear-gradient(to right top, pink, violet);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-board {
+  display: flex;
+  width: 80%;
+  height: 80vh;
+}
+
+.player {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.controls {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: space-around;
+}
+
+img {
+  width: 100px;
+  height: 100px;
 }
