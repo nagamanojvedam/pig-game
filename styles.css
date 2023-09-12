@@ -22,8 +22,7 @@ body {
   width: 80%;
   height: 80vh;
   color: rgb(73, 73, 73);
-  background-color: rgba(240, 255, 255, 0.5);
-  border-radius: 10px;
+  background-color: rgba(0, 0, 143, 0.2);
 }
 
 .player {
@@ -37,7 +36,6 @@ body {
 .bg {
   background-color: rgba(238, 130, 238, 0.5);
   color: rgba(255, 255, 255, 0.8);
-  border-radius: 10px;
   margin-top: 60px;
 }
 
@@ -85,7 +83,7 @@ img {
 .btn {
   border: none;
   font-size: 30px;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgb(255, 255, 255);
   padding: 10px 30px;
   border-radius: 10px;
   color: rgba(105, 52, 103, 0.8);
@@ -93,7 +91,7 @@ img {
 
 .btn:hover {
   cursor: pointer;
-  background-color: rgba(105, 52, 103, 0.8);
+  background-color: rgba(105, 52, 103);
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -102,7 +100,7 @@ img {
 }
 
 .player-active {
-  background-color: rgba(0, 0, 200, 0.2);
+  background-color: rgba(240, 255, 255, 0.8);
 }
 
 .winner {
