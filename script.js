@@ -48,7 +48,7 @@ const switchPlayer = () => {
 };
 
 const checkWinner = () => {
-  if (scores[activePlayer] >= 20) {
+  if (scores[activePlayer] >= 100) {
     currentScore = 0;
     playing = false;
     document.querySelector(`.player-${activePlayer}`).classList.add("winner");
