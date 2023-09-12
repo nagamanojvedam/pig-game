@@ -9,7 +9,6 @@ body {
   font-family: "Bebas Neue";
   height: 100vh;
   background-image: linear-gradient(to right top, pink, violet);
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,26 +16,50 @@ body {
 
 .game-board {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 80%;
   height: 80vh;
+  color: rgb(73, 73, 73);
+  background-color: rgba(240, 255, 255, 0.5);
+  border-radius: 10px;
 }
 
 .player {
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  width: inherit;
+  align-items: center;
   text-align: center;
-  display: flex;
-  flex-direction: column;
+}
+.bg {
+  background-color: rgba(238, 130, 238, 0.5);
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  margin-top: 60px;
 }
 
-.controls {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  height: 80vh;
-  justify-content: space-around;
+.player-txt {
+  font-size: 54px;
+  margin: 20px;
+  padding: 5px 20px;
 }
 
-img {
-  width: 100px;
-  height: 100px;
+#score-0,
+#score-1 {
+  font-size: 100px;
+  margin-top: 10px;
+}
+
+.current-txt {
+  font-size: 38px;
+  margin: 20px;
+  padding: 5px 40px;
+}
+
+#current-0,
+#current-1 {
+  font-size: 46px;
+  margin: 10px 20px;
 }
